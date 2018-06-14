@@ -1,4 +1,4 @@
-# node-websocket-qt
+# node-qwebsocket
 Node.js event-driven server-side web socket, perfectly supporting QT QWebSocket as client.
 # Installing
 `npm install --save node-websocket-qt`
