@@ -1,6 +1,6 @@
 {
-  "name": "node-qtwebsocket",
-  "version": "1.0.0",
+  "name": "node-qwebsocket",
+  "version": "1.0.1",
   "description": "node.js event-driven websocket as server, supporting QT QWebSocket as client",
   "main": "index.js",
   "scripts": {
