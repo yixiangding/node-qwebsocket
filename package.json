@@ -1,0 +1,28 @@
+{
+  "name": "node-websocket-qt",
+  "version": "1.0.0",
+  "description": "node.js event-driven websocket as server, supporting QT QWebSocket as client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yixiangding/node-websocket-qt.git"
+  },
+  "keywords": [
+    "websocket",
+    "qt",
+    "socket",
+    "node"
+  ],
+  "author": "yixiangding <yixiangd1118@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yixiangding/node-websocket-qt/issues"
+  },
+  "homepage": "https://github.com/yixiangding/node-websocket-qt#readme",
+  "dependencies": {
+    "ws": "^5.2.0"
+  }
+}
