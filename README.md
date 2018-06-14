@@ -1,7 +1,7 @@
 # node-qwebsocket
 Node.js event-driven server-side web socket, perfectly supporting QT QWebSocket as client.
 # Installing
-`npm install --save node-websocket-qt`
+`npm install --save node-qwebsocket`
 # Usage
 ### Basic example
 #### sever side 
@@ -18,7 +18,7 @@ server.listen(port, hostname, function () {
   console.log('Server running at http://%s:%s/', hostname, port);
 });
 
-const WebSocketServer = require('node-websocket-qt');
+const WebSocketServer = require('node-qwebsocket');
 const socketServer = new WebSocketServer(server);
 socketServer.on('connection', function (socket) {
   console.log('socket connected!');
@@ -82,4 +82,4 @@ socket.on('connection', function (socket) {
 });
 ```
 # License
-[MIT](https://github.com/yixiangding/node-websocket-qt/blob/master/LICENSE)
+MIT
